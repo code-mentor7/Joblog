@@ -87,7 +87,7 @@ DATABASES = {
         'ENGINE': 'sql_server.pyodbc',
         'NAME': 'testDB',
         'USER': 'sa',
-        'PASSWORD': 'Spider0421',
+        'PASSWORD': '******',
         'HOST': 'DESKTOP-AGF4CS3\JOBLOGSQL',
         'PORT': '',
         'OPTIONS': {
