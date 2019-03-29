@@ -11,6 +11,7 @@ django = "==2.1"
 djangorestframework = "*"
 django-cors-headers = "*"
 django-pyodbc-azure = "==2.1.0.0"
+pyodbc = "==4.0.26"
 
 
 [dev-packages]
