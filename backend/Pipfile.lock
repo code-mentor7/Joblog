@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "8890b03066d83829c404048db7a0eb0ed5c13f3fdb2c8304dcb27ab588ea51eb"
+            "sha256": "d82b4931d13376a58f4d89a011290e24b5a6dc108b33b018faf7acbf216ffb28"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -30,6 +30,13 @@
             "index": "pypi",
             "version": "==2.5.2"
         },
+        "django-pyodbc-azure": {
+            "hashes": [
+                "sha256:1fa3b31f4432ef2c90c434b284ad093478f8221121dafef05fafbe2c4d872211"
+            ],
+            "index": "pypi",
+            "version": "==2.1.0.0"
+        },
         "djangorestframework": {
             "hashes": [
                 "sha256:8a435df9007c8b7d8e69a21ef06650e3c0cbe0d4b09e55dd1bd74c89a75a9fcd",
@@ -37,6 +44,27 @@
             ],
             "index": "pypi",
             "version": "==3.9.2"
+        },
+        "pyodbc": {
+            "hashes": [
+                "sha256:0e89294da8bd1d1dd37799d07ee9c4ecfea821a9a6e6f51566a0efef5cff0495",
+                "sha256:19c2132f7a1c573eae1b5ea8915143243b2b557ea2fae551d833ecbac79b2c6e",
+                "sha256:2c673a6d3247c1e2a636d18f3e02742381778c4194da5e583f03dc3ea050598a",
+                "sha256:3d00077859d214915c089624c459ec05b823ffc89071657eec109389909b19d3",
+                "sha256:44430048ede2b47cb2b1d45f9d6d00d2575752942160f8c75a2a588ae3602e66",
+                "sha256:59623016dd429ea2e258a8d4d08b661ae497aeb6ea24e14cb67af3bf3d263ce3",
+                "sha256:9d5549c49846a40a0f6e1cd9fd2ab147d4c77452ce74452a103e2c244e38a441",
+                "sha256:a229ae7b487a123e2a1d09ad529ce3a7857957c87679246e87874697cad5d9ed",
+                "sha256:a3f82f853ae71f5a2be7cdd29e51d197984147d3682fb326eff3e44ea03d617b",
+                "sha256:b5e46d768ab7a4ac7621ba1499678e77d2bf143222c60a9c4c3c8f8e7a0c7ef6",
+                "sha256:c0747d54c066acf79a4e042906f558a27755939f673479ce4dcd88cb9bab09c9",
+                "sha256:d10754f5534dffd04f5ebb2fc321ac59ee6d2f3ddfeb161701094f4e2df63a7e",
+                "sha256:e455a58b807ed9c4c7ea3f712bf0ad04a3400baf93a14b016e81219a0eb0831b",
+                "sha256:e52700b5d24a846483b5ab80acd9153f8e593999c9184ffea11596288fb33de3",
+                "sha256:f1abc331975f1a2131d235f87a683b55c7d55a198fcf5fae02267a26d849e323",
+                "sha256:fc661323bd8339759fafb2081e9d20b576c988994f9f8b3dd936f5bc8b974dd8"
+            ],
+            "version": "==4.0.26"
         },
         "pytz": {
             "hashes": [
