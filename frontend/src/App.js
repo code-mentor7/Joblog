@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Moment from 'moment';
 
 class App extends Component {
   constructor(props) {
@@ -36,7 +37,7 @@ class App extends Component {
                 <tr>
                   <td className="text-center">{item.JOB_LOG_PK}</td>
                   <td className="text-center">{item.IS_COMPLETE}</td>
-                  <td className="text-center">{item.SUBMIT_DT}</td>
+                  <td className="text-center">{Moment(item.SUBMIT_DT).format('YYYY/MM/DD HH:mm:ss')}</td>
                   <td className="text-center">{item.XPR_JOB_ID}</td>
                   <td className="text-center">{item.OVRD_FILE_PATH}</td>
                   <td className="text-center">{item.JOB_STATUS}</td>
