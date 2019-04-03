@@ -1,18 +1,7 @@
 from rest_framework import serializers
 from . import models
 
-
-class TodoSerializer(serializers.ModelSerializer):
-
-    class Meta:
-        fields = (
-            'id',
-            'title',
-            'description',
-        )
-        model = models.Todo
-
-class CamdevSerializer(serializers.ModelSerializer):
+class JOBLOGSerializer(serializers.ModelSerializer):
 
     class Meta:
         fields = (
@@ -28,4 +17,4 @@ class CamdevSerializer(serializers.ModelSerializer):
             'X_LOG_PATH',
             'X_SERVER',
         )
-        model = models.Camdev
+        model = models.JOB_LOG
